@@ -164,11 +164,19 @@ a {
   line-height: 1.5;
 }
 
+/* Mobile devices */
+@media (max-width: 600px) {
+  .para-style {
+    font-size: 1rem;
+  }
+}
+
 /* Shared link style */
 .link-style {
   font-size: 1.0625rem;
   /* 17px */
   font-weight: 900;
+  text-align: center;
   color: var(--white);
   padding: 1.125rem 2.125rem;
   /* 18px 34px */
@@ -322,7 +330,7 @@ a {
 /* Mobile devices */
 @media (max-width: 600px) {
   .hero__text {
-    max-width: 85%;
+    max-width: 100%;
   }
 }
 
@@ -333,6 +341,13 @@ a {
   font-weight: 900;
   margin: 0 auto 1.875rem;
   /* 0 auto 30px */
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .hero__title {
+    max-width: 85%;
+  }
 }
 
 .hero__title, .features__title {
@@ -349,6 +364,15 @@ a {
   .hero__para {
     font-size: 1.25rem;
     /* 20px */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .hero__para {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -606,6 +630,15 @@ main {
   }
 }
 
+@media (max-width: 800px) {
+  .footer {
+    padding-left: 5rem;
+    /* 80px */
+    padding-right: 5rem;
+    /* 80px */
+  }
+}
+
 /* Mobile devices */
 @media (max-width: 705px) {
   .footer {
@@ -616,6 +649,15 @@ main {
     /* 60px */
     padding-top: 5rem;
     /* 80px */
+  }
+}
+
+@media (max-width: 440px) {
+  .footer {
+    padding-left: 2.1875rem;
+    /* 35px */
+    padding-right: 2.1875rem;
+    /* 35px */
   }
 }
 
@@ -674,10 +716,9 @@ main {
 /* Mobile devices */
 @media (max-width: 705px) {
   .footer__title {
-    font-size: 2.0625rem;
-    /* 33px */
-    padding: 0 1.25rem;
-    /* 0 20px */
+    font-size: 1.875rem;
+    /* 30px */
+    padding: 0;
   }
 }
 
@@ -710,9 +751,9 @@ main {
 /* Mobile devices */
 @media (max-width: 705px) {
   .footer__para {
-    font-size: 1.1875rem;
-    /* 19px */
-    font-weight: 600px;
+    font-size: 1.0625rem;
+    /* 17px */
+    font-weight: 500;
   }
 }
 
@@ -734,6 +775,13 @@ main {
     /* 22px 42px */
     font-size: 1.1875rem;
     /* 19px */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 705px) {
+  .footer__link {
+    font-size: 1rem;
   }
 }
 
