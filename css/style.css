@@ -649,6 +649,10 @@ main {
 }
 
 @media (max-width: 640px) {
+  .link-style {
+    white-space: nowrap; 
+  }
+
   .hero--download, .hero--about {
     display: block;
     width: fit-content;
@@ -738,6 +742,7 @@ main {
     /* 35px */
     padding-right: 2.1875rem;
     /* 35px */
+    width: fit-content;
   }
 }
 
